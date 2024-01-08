@@ -34,9 +34,7 @@ The plugin supports a variety of boards, based on the MCU (processor) they have:
 Please open a [Github issue](https://github.com/OctoPrint/OctoPrint-FirmwareUpdater/issues) if you would like a new board or MCU to be supported. If it's a new type of board which requires hardware testing please consider making a [donation](#Donations) to help fund the costs.
 
 ## Plugin Installation
-Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
-or manually using this URL:
-    https://github.com/OctoPrint/OctoPrint-FirmwareUpdater/archive/master.zip
+https://github.com/wesk1/OctoPrint-FirmwareUpdater/archive/master.zip
 
 Using OctoPrint's Software Update plugin you can choose one of three Release Channels to follow:
 
