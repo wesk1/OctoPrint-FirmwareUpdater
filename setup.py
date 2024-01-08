@@ -4,14 +4,14 @@
 ### Do not forget to adjust the following variables to your own plugin.
 
 # The plugin's identifier, has to be unique
-plugin_identifier = "firmwareupdater"
+plugin_identifier = "firmware-updater"
 
 # The plugin's python package, should be "octoprint_<plugin identifier>", has to be unique
-plugin_package = "octoprint_firmwareupdater"
+plugin_package = "octoprint_firmware-updater"
 
 # The plugin's human readable name. Can be overwritten within OctoPrint's internal data via __plugin_name__ in the
 # plugin module
-plugin_name = "OctoPrint-FirmwareUpdater"
+plugin_name = "OctoPrint-Firmware-Updater"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
 plugin_version = "1.14.0"
@@ -27,7 +27,7 @@ plugin_author = "Ben Lye and Gina Häußge, based on work by Nicanor Romero Veni
 plugin_author_email = "ben@lye.co.nz"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/OctoPrint/OctoPrint-FirmwareUpdater"
+plugin_url = "https://github.com/wesk1/OctoPrint-FirmwareUpdater"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "AGPLv3"
