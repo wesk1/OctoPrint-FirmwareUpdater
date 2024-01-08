@@ -847,7 +847,7 @@ class FirmwareupdaterPlugin(octoprint.plugin.BlueprintPlugin,
                 ],
 
                 # update method: pip
-                pip="https://github.com/OctoPrint/OctoPrint-FirmwareUpdater/archive/{target_version}.zip"
+                pip="https://github.com/wesk1/OctoPrint-FirmwareUpdater/archive/{target_version}.zip"
             )
         )
 
