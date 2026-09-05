@@ -31,12 +31,14 @@ The plugin supports a variety of boards, based on the MCU (processor) they have:
 | STM32 32-bit MCUs (DFU Mode) | MKS Rumba 32 | [dfu-util](doc/dfu-util.md) |
 | OpenBLT Bootloader | Any board with the OpenBLT bootloader | [lpc176x](doc/lpc176x.md) or [bootcommander](doc/bootcommander.md) |
 
-Please open a [Github issue](https://github.com/OctoPrint/OctoPrint-FirmwareUpdater/issues) if you would like a new board or MCU to be supported. If it's a new type of board which requires hardware testing please consider making a [donation](#Donations) to help fund the costs.
+This fork adds the `stk500v1` programmer option required to update a MakerBot Replicator 2 Mightyboard over USB through OctoPrint.
+
+Please open a [Github issue](https://github.com/OctoPrint/OctoPrint-FirmwareUpdater/issues) if you would like a new board or MCU to be supported by the upstream project. If it's a new type of board which requires hardware testing, please consider donating to the upstream developers below.
 
 ## Plugin Installation
-Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
-or manually using this URL:
-    https://github.com/OctoPrint/OctoPrint-FirmwareUpdater/archive/master.zip
+Install this Replicator 2-compatible fork manually using this URL:
+
+    https://github.com/wesk1/OctoPrint-FirmwareUpdater/archive/master.zip
 
 Using OctoPrint's Software Update plugin you can choose one of three Release Channels to follow:
 
@@ -144,6 +146,16 @@ If you have trouble using the plugin please check these logs for any error messa
 
 ## Donations
 Donations to help with the cost of test hardware are gratefully received using any of the methods below.
+
+### Replicator 2 fork
+
+Donations supporting maintenance and testing of the Replicator 2 modifications can be sent to:
+
+| Currency | Address |
+| --- | --- |
+| Bitcoin | [35DugJEnUmd6eeN7YUSr5ps82aNy6BWRiC](https://www.blockchain.com/btc/address/35DugJEnUmd6eeN7YUSr5ps82aNy6BWRiC) |
+
+### Upstream project
 
 | Currency | Link |
 | --- | --- |
